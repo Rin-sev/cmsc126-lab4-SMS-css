@@ -13,7 +13,6 @@ body {
     color: #3e2723;
 }
 
-/* HEADER */
 header {
     text-align: center;
     padding: 35px 20px;
@@ -55,7 +54,7 @@ header hr {
     transform: scale(1.05);
 }
 
-.imgBanner:first-of-type { /* signifies first use: header banner */
+.imgBanner {
     width: 100%;
     height: 600px;
     object-fit: cover;
@@ -145,57 +144,6 @@ a:hover {
     color: #3e2723;
 }
 
-/* ABOUT US PAGE */
-.coffee > .imgBanner {
-    width: 300px;       
-    height: auto;      
-    object-fit: contain;
-    float: left;         /* move it to the side */
-    margin-right: 20px;
-    margin-bottom: 0;
-}
-
-.coffee:first-of-type .definition{
-    font-size: 30px;
-    font-weight: bold;
-    position: relative;
-    top: 100px; 
-}
-
-.coffee h2#about {
-    margin-top: 300px; /* pushes it down 50px from above */
-}
-
-table {
-    border-collapse: collapse; 
-}
-
-td {
-    padding: 10px; 
-    text-align: center;
-}
-
-.teamMember {
-    width: 200px;
-    height: 200px;
-    object-fit: cover; /*prevents image stretching*/
-}
-
-.term{
-    font-style: italic;
-    text-decoration: none;
-}
-
-.emphasis{
-    font-weight: bold;
-}
-
-em {
-    font-style: italic;
-    font-weight: bold;
-}
-
-/* FOOTER */
 footer {
     background-color: #5d4037;
     color: white;
